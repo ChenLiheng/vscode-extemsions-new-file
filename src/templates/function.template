@@ -1,0 +1,8 @@
+import React from 'react';
+import './{componentName}.less';
+
+const {componentName} = props => {
+  return <div className="{componentName}-wrapper"></div>
+}
+
+export default {componentName}
